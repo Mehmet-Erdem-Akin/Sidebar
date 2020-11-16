@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+main {
+  height: auto;
+  width: 100vw; }
+  main #sidebar {
+    height: 100%;
+    position: fixed;
+    width: 0px;
+    z-index: 1;
+    top: 0;
+    left: -50;
+    background-color: #6484F6;
+    padding-left: -150px !important;
+    overflow: hidden;
+    transition: 0.6s;
+    -webkit-box-shadow: 3px 3px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 14px 0px rgba(0, 0, 0, 0.75); }
+    main #sidebar .btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 30px; }
+    main #sidebar ul {
+      list-style-type: none;
+      padding: 10px 10px 10px 20px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 22px;
+      display: block;
+      transition: 0.6s;
+      margin-top: 50%; }
+      main #sidebar ul li {
+        padding-top: 30px; }
+        main #sidebar ul li a {
+          color: #F5F5FD; }
+  main #content {
+    position: absolute;
+    height: auto;
+    width: 100vw;
+    background-color: #F5F5FD;
+    transition: 0.6s; }
+    main #content nav {
+      background-color: #F5F5FD !important; }
+      main #content nav .nav-link {
+        color: #6484F6;
+        font-weight: bold; }
+        main #content nav .nav-link:hover {
+          color: #000; }
+      main #content nav .menuAc {
+        position: relative;
+        top: 0;
+        left: 0;
+        border: 2px solid #6484F6;
+        border-radius: 5px;
+        padding: 5px; }
+        main #content nav .menuAc i {
+          font-size: 25px !important; }
+      main #content nav .form-inline .btn {
+        color: #6484F6;
+        border: 2px solid #6484F6;
+        background-color: #fff; }
+        main #content nav .form-inline .btn:hover {
+          background-color: #6484F6;
+          color: white; }
+
+/*# sourceMappingURL=style.css.map */
